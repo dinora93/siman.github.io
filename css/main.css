@@ -1415,6 +1415,38 @@ body {
 
 
 @media (max-width: 480px) {
+  
+  .benefits-container {
+    width: 80%; /* Even wider for very small screens */
+    padding: 10px;
+    gap: 1rem; /* Adjust gap if needed */
+    border-radius: 10px; /* Smaller border radius */
+    justify-content: flex-start;
+  }
+
+  .benefit-item {
+    padding: 5px 0; /* Add some vertical padding to items */
+  }
+
+  .icon-circle {
+    width: 40px; /* Slightly smaller icon circle */
+    height: 40px;
+    padding: 8px;
+    align-items:flex-start
+  }
+
+  .icon-circle img {
+    width: 20px; /* Slightly smaller icon image */
+    height: 20px;
+  }
+
+  .text-content strong {
+    font-size: 0.9rem; /* Further adjust font size */
+  }
+
+  .text-content p {
+    font-size: 0.75rem; /* Further adjust font size */
+  }
   .nav-container {
     flex-direction: column; 
     align-items: flex-start; 
@@ -1485,22 +1517,6 @@ body {
   .nav-link:hover {
     background-color: #f7fafc;
     color: #c53030;
-  }
-
-  .benefit-item {
-    display: flex;
-    align-items: center;
-    max-width: 220px;
-    text-align: left;
-    gap: 12px;
-    margin-right: 120px;
-  }
-
-  .social-icons {
-    display: flex;
-    gap: 15px;
-    margin-right: 280px;
-    margin-bottom: 20px;
   }
 
   .footer {
