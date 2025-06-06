@@ -568,7 +568,7 @@ body {
   padding: 0px;
 }
 
-/* Sección superior del footer */
+
 .footer-top {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -576,7 +576,7 @@ body {
   margin-bottom: 100px;
 }
 
-/* Columna de suscripción */
+
 .footer-subscribe {
   grid-column: 1;
 }
@@ -648,7 +648,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Redes sociales */
+
 .social-icons {
   display: flex;
   gap: 15px;
@@ -673,7 +673,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* App stores */
+
 
 .store-buttons {
   display: flex;
@@ -692,7 +692,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Selector de país */
+
 .country-selector-container {
   position: relative;
   display: inline-block;
@@ -733,7 +733,7 @@ body {
   flex-shrink: 0;
 }
 
-/* Banderas usando gradientes CSS */
+
 .flag-sv {
   background: linear-gradient(to bottom, #0038a8 33%, white 33%, white 66%, #0038a8 66%);
 }
@@ -750,7 +750,7 @@ body {
   background: linear-gradient(90deg, #4997d0 33%, white 33%, white 66%, #4997d0 66%);
 }
 
-/*flecha de hacia abajo del dropdown de pais*/
+
 .chevron {
   transition: transform 0.3s ease;
   color: white;
@@ -829,7 +829,7 @@ body {
   color: #333;
 }
 
-/* Columnas de enlaces */
+
 .footer-column {
   display: flex;
   flex-direction: column;
@@ -972,7 +972,6 @@ body {
 
 .promo-banner {
   background-color: var(--color_principal);
-  /* Teal-like color from the image */
   color: #ffffff;
   padding: 10px 0;
   font-weight: bold;
@@ -1053,11 +1052,9 @@ body {
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  /* Responsive grid */
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  /* Limit the max width of the grid */
   width: 100%;
 }
 
@@ -1065,17 +1062,14 @@ body {
   display: grid;
   padding-top: 20px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  /* Responsive grid */
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  /* Limit the max width of the grid */
   width: 100%;
 }
 
 .product-card {
   background-color: #2e2e33;
-  /* Dark background from the image */
   color: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -1089,14 +1083,11 @@ body {
   display: flex;
   width: 100%;
   background-color: #fff;
-  /* White background for image area */
   padding: 20px;
-  /* Adjust padding as needed */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50%;
-  /* Ensures a minimum height for the image area */
 }
 
 .product-card-image {
@@ -1108,7 +1099,6 @@ body {
 .product-card-body {
   padding: 15px;
   flex-grow: 1;
-  /* Allows the body to take up available space */
   display: flex;
   flex-direction: column;
 }
@@ -1143,12 +1133,10 @@ body {
   font-size: 1.2em;
   font-weight: 700;
   color: #fff;
-  /* White for current price */
 }
 
 .discount-badge {
   background-color: #cc0000;
-  /* Red discount background */
   color: #fff;
   font-size: 0.75em;
   padding: 3px 6px;
@@ -1166,7 +1154,6 @@ body {
 
 .add-to-cart-button {
   background-color: #d93b3f;
-  /* Red button from image */
   color: #fff;
   border: none;
   padding: 12px 15px;
@@ -1179,7 +1166,7 @@ body {
   transition: background-color 0.3s ease;
   width: 100%;
   margin-top: auto;
-  /* Pushes the button to the bottom */
+
 }
 
 .add-to-cart-button:hover {
@@ -1246,9 +1233,10 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.register-button:hover{
+.register-button:hover {
   background-color: var(--color_top_banner);
 }
+
 .section-title_ {
   font-size: 2em;
   font-weight: 600;
@@ -1263,11 +1251,8 @@ body {
   padding-bottom: 100px;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  /* Responsive columns */
   gap: 30px;
-  /* Space between columns */
   max-width: 1200px;
-  /* Max width for the content */
   width: 100%;
 }
 
@@ -1275,28 +1260,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Center content horizontally */
   text-align: center;
 }
 
 .grid-item-image-container {
   width: 100%;
   height: 300px;
-  /* Fixed height for image containers */
   overflow: hidden;
-  /* Ensures image doesn't overflow */
   border-radius: 8px;
-  /* Slightly rounded corners for images */
   margin-bottom: 20px;
   position: relative;
-  /* For background images or more complex overlays */
 }
 
 .grid-item-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Ensures image covers the container without distortion */
   display: block;
 }
 
@@ -1319,11 +1298,8 @@ body {
   color: #555;
   line-height: 1.5;
   text-align: left;
-  /* Align description text to left */
   width: 100%;
-  /* Ensure description takes full width for left alignment */
   padding: 0 10px;
-  /* Add some horizontal padding for description */
   box-sizing: border-box;
 }
 
@@ -1426,7 +1402,6 @@ body {
 
   .grid-item-image-container {
     height: 250px;
-    /* Slightly smaller image height on smaller screens */
   }
 
   .grid-item-title {
@@ -1440,6 +1415,101 @@ body {
 
 
 @media (max-width: 480px) {
+  .nav-container {
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 10px; 
+  }
+
+  .departments-btn {
+    width: 100%; 
+    justify-content: center; 
+    border-right: none;
+    border-bottom: 1px solid #e2e8f0; 
+    padding: 10px 15px; 
+  }
+
+  .nav-menu {
+    flex-direction: column; 
+    width: 100%;
+    margin-top: 10px; 
+    display: none; 
+  }
+
+  .nav-menu.active { 
+    display: flex;
+  }
+
+  .nav-item {
+    width: 100%; 
+  }
+
+  .nav-link {
+    padding: 12px 15px; 
+    border-bottom: none; 
+    border-top: 1px solid #e2e8f0; 
+  }
+
+  .nav-link:hover {
+    border-bottom-color: transparent; 
+  }
+
+  .separator {
+    display: none; 
+  }
+
+  .departments-btn {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 14px;
+    border-right: none;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 12px 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .nav-link:hover {
+    background-color: #f7fafc;
+    color: #c53030;
+  }
+
+  .benefit-item {
+    display: flex;
+    align-items: center;
+    max-width: 220px;
+    text-align: left;
+    gap: 12px;
+    margin-right: 30px;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-right: 160px;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    background-color: #ffffff;
+    padding: 50px 0 0px;
+    color: #333;
+    margin: 1rem;
+  }
+
   .subscribe-form {
     flex-direction: column;
   }
@@ -1489,6 +1559,8 @@ body {
     padding: 10px 12px;
     font-size: 13px;
   }
+
+
 }
 
 @keyframes slideDown {
