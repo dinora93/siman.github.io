@@ -1415,75 +1415,54 @@ body {
 
 
 @media (max-width: 480px) {
-  
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+  }
   .benefits-container {
-    width: 80%; /* Even wider for very small screens */
+    width: 80%;
     padding: 10px;
-    gap: 1rem; /* Adjust gap if needed */
-    border-radius: 10px; /* Smaller border radius */
+    gap: 1rem;
+    border-radius: 10px;
     justify-content: flex-start;
   }
 
   .benefit-item {
-    padding: 5px 0; /* Add some vertical padding to items */
+    padding: 5px 0; 
   }
 
   .icon-circle {
-    width: 40px; /* Slightly smaller icon circle */
+    width: 40px; 
     height: 40px;
     padding: 8px;
     align-items:flex-start
   }
 
   .icon-circle img {
-    width: 20px; /* Slightly smaller icon image */
+    width: 20px; 
     height: 20px;
   }
 
   .text-content strong {
-    font-size: 0.9rem; /* Further adjust font size */
+    font-size: 0.9rem;
   }
 
   .text-content p {
-    font-size: 0.75rem; /* Further adjust font size */
+    font-size: 0.75rem; 
   }
-  .nav-container {
-    flex-direction: column; 
-    align-items: flex-start; 
-    padding: 10px; 
-  }
-
+  
   .departments-btn {
     width: 100%; 
     justify-content: center; 
     border-right: none;
     border-bottom: 1px solid #e2e8f0; 
     padding: 10px 15px; 
-  }
-
-  .nav-menu {
-    flex-direction: column; 
-    width: 100%;
-    margin-top: 10px; 
-    display: none; 
-  }
-
-  .nav-menu.active { 
-    display: flex;
-  }
-
-  .nav-item {
-    width: 100%; 
-  }
-
-  .nav-link {
-    padding: 12px 15px; 
-    border-bottom: none; 
-    border-top: 1px solid #e2e8f0; 
-  }
-
-  .nav-link:hover {
-    border-bottom-color: transparent; 
   }
 
   .separator {
@@ -1499,25 +1478,6 @@ body {
     border-bottom: 1px solid #e2e8f0;
   }
 
-  .nav-menu {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .nav-item {
-    width: 100%;
-  }
-
-  .nav-link {
-    padding: 12px 15px;
-    font-size: 14px;
-    border-bottom: 1px solid #e2e8f0;
-  }
-
-  .nav-link:hover {
-    background-color: #f7fafc;
-    color: #c53030;
-  }
 .legal-info {
   display: flex;
   align-items: center;
