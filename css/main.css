@@ -1415,6 +1415,12 @@ body {
 
 
 @media (max-width: 480px) {
+.product-card-image {
+  max-width: 100%;
+  height: 90%;
+  display: block;
+}
+
   .nav-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -1544,7 +1550,7 @@ body {
     padding: 10px 12px;
     font-size: 13px;
   }
-
+/*promociones*/
 
 }
 
@@ -1558,6 +1564,7 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+  
 }
 
 .dropdown-menu.active {
