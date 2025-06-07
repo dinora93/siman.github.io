@@ -562,6 +562,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0px;
+  margin: 15px;
 }
 
 
@@ -1417,10 +1418,10 @@ body {
   }
 
   .footer {
-   
+
     padding: 50px 0 0px;
     color: #333;
-    margin: 2rem;
+
   }
 
   .subscribe-form {
@@ -1473,26 +1474,40 @@ body {
     font-size: 13px;
   }
 
+
   /*promociones*/
 
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  
-.subscribe-form {
-  display: flex;
-  margin-bottom: 25px;
-  width: 25%;
-}
 
-.subscribe-input {
-  flex: 1;
-  padding: 12px 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px 0 0 4px;
-  font-size: 14px;
-  outline: none;
-}
+  .footer {
+    padding: 50px 0 0px;
+    color: #333;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    margin: 15px;
+  }
+
+  .subscribe-form {
+    display: flex;
+    margin-bottom: 25px;
+    width: 25%;
+  }
+
+  .subscribe-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    outline: none;
+  }
+
   .footer-logo img {
     justify-content: center;
     width: 20%;
@@ -1591,7 +1606,7 @@ body {
   .footer {
     padding: 50px 0 0px;
     color: #333;
-    margin: 2rem;
+
   }
 
   .footer-top {
