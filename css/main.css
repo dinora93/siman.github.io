@@ -1281,141 +1281,6 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-
-    .carousel-container-principal {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    margin-top: 0.8rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    margin: 15px;
-  }
-
-  .carousel-slide {
-    height:auto;
-    flex-direction: auto;
-  }
-
-  .carousel-slide img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-  }
-
-  .carousel-btn {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .dot {
-    width: 8px;
-    height: 8px;
-  }
-
-  .header-container {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .search-container {
-    margin: 0;
-    max-width: 100%;
-  }
-
-  .nav-menu {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .nav-link {
-    padding: 15px 12px;
-    font-size: 13px;
-  }
-
-  .carousel-container {
-    padding: 20px;
-  }
-
-  .category-item {
-    flex: 0 0 120px;
-  }
-
-  .category-circle {
-    width: 80px;
-    height: 80px;
-  }
-
-  .category-icon {
-    font-size: 24px;
-  }
-
-  .departments-btn {
-    padding: 12px 15px;
-    font-size: 14px;
-  }
-
-  .footer-top {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .footer-bottom-content {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    text-align: center;
-  }
-
-  .payment-methods {
-    justify-content: center;
-  }
-
-  .app-stores {
-    justify-content: center;
-  }
-
-  .social-icons {
-    justify-content: center;
-  }
-
-  .welcome-section {
-    padding: 30px 20px;
-  }
-
-  .welcome-title {
-    font-size: 1.8em;
-  }
-
-  .welcome-description {
-    font-size: 1em;
-  }
-
-  .register-button {
-    padding: 12px 25px;
-    font-size: 1em;
-  }
-
-  .section-title_ {
-    font-size: 1.8em;
-    margin-bottom: 30px;
-  }
-
-  .grid-item-image-container {
-    height: 250px;
-  }
-
-  .grid-item-title {
-    font-size: 1.1em;
-  }
-
-  .grid-item-description {
-    font-size: 0.9em;
-  }
-}
-
 
 @media (max-width: 480px) {
   .product-grid {
@@ -1608,6 +1473,240 @@ body {
   /*promociones*/
 
 }
+
+@media (max-width: 768px) {
+
+
+  .footer-container {
+    padding: 0 15px;
+  }
+
+  /* 2.2) Reorganizar .footer-top a una sola columna */
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1fr; /* un solo bloque vertical */
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  /* 2.3) Ajustar logo y márgenes en suscripción */
+  .footer-logo img {
+    width: 70%;
+    margin-bottom: 15px;
+  }
+
+  .subscribe-text {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+
+  /* 2.4) Formulario de suscripción en columna */
+  .subscribe-form {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .subscribe-input {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .subscribe-btn {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  /* 2.5) Iconos sociales más compactos */
+  .social-icons {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* 2.6) Botones de tienda más pequeños */
+  .store-buttons {
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .app-button {
+    height: 28px;
+  }
+
+  /* 2.7) Selector de país ocupa 100% */
+  .country-selector-container {
+    width: 100%;
+  }
+
+  /* 2.8) Columnas 2, 3 y 4: centrar títulos y enlaces */
+  .footer-column {
+    margin-top: 20px;
+  }
+
+  .footer-column-title {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .footer-link {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  /* 2.9) Sección inferior: apilar verticalmente */
+  .footer-bottom {
+    padding: 15px 0 20px 5px;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .payment-icon {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .legal-info p {
+    font-size: 12px;
+  }
+}
+   .carousel-container-principal {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    
+  }
+
+  .carousel-slide {
+    height: 250px;
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .carousel-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .search-container {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-link {
+    padding: 15px 12px;
+    font-size: 13px;
+  }
+
+  .carousel-container {
+    padding: 20px;
+  }
+
+  .category-item {
+    flex: 0 0 120px;
+  }
+
+  .category-circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .category-icon {
+    font-size: 24px;
+  }
+
+  .departments-btn {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-bottom-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .payment-methods {
+    justify-content: center;
+  }
+
+  .app-stores {
+    justify-content: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .welcome-section {
+    padding: 30px 20px;
+  }
+
+  .welcome-title {
+    font-size: 1.8em;
+  }
+
+  .welcome-description {
+    font-size: 1em;
+  }
+
+  .register-button {
+    padding: 12px 25px;
+    font-size: 1em;
+  }
+
+  .section-title_ {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+  }
+
+  .grid-item-image-container {
+    height: 250px;
+  }
+
+  .grid-item-title {
+    font-size: 1.1em;
+  }
+
+  .grid-item-description {
+    font-size: 0.9em;
+  }
+
+
+
 
 @keyframes slideDown {
   from {
