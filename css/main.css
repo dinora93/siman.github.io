@@ -1478,7 +1478,7 @@ body {
 
 }
 
-@media (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   
 .subscribe-form {
   display: flex;
