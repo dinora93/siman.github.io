@@ -1281,7 +1281,7 @@ body {
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
 
     .carousel-container-principal {
     position: relative;
@@ -1358,7 +1358,28 @@ body {
     font-size: 14px;
   }
 
-  
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-bottom-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .payment-methods {
+    justify-content: center;
+  }
+
+  .app-stores {
+    justify-content: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
 
   .welcome-section {
     padding: 30px 20px;
@@ -1393,11 +1414,6 @@ body {
   .grid-item-description {
     font-size: 0.9em;
   }
-
-  .country-selector-container {
-    width: 100%;
-  }
-
 }
 
 
