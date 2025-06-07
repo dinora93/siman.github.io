@@ -8,6 +8,7 @@
   --color_top_banner: #273d53;
   --color_principal: #9b2c2c;
   --color_secundario: #87282e;
+  --color_footer: #f8f4f4;
 }
 
 body {
@@ -554,15 +555,16 @@ body {
 
 /*Footer*/
 .footer {
+  margin-top: 20px;
   padding: 50px 0 0px;
   color: #333;
+  background-color:var(--color_footer) ;
 }
 
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0px;
-  margin: 15px;
 }
 
 
@@ -1509,6 +1511,7 @@ body {
   .footer {
     padding: 50px 0 0px;
     color: #333;
+    background-color:var(--color_footer) ;
   }
 
   .footer-container {
@@ -1557,6 +1560,7 @@ body {
   .footer {
     padding: 50px 0 0px;
     color: #333;
+    background-color:var(--color_footer) ;
   }
 
   .footer-container {
