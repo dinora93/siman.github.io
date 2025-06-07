@@ -1417,12 +1417,7 @@ body {
     flex-direction: column;
   }
 
-  .footer {
 
-    padding: 50px 0 0px;
-    color: #333;
-
-  }
 
   .subscribe-form {
     flex-direction: column;
@@ -1474,8 +1469,49 @@ body {
     font-size: 13px;
   }
 
+  .footer {
+    padding: 50px 0 0px;
+    color: #333;
+  }
 
-  /*promociones*/
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    margin: 15px;
+  }
+
+  .footer-logo img {
+    justify-content: center;
+    width: 20%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-bottom-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .payment-methods {
+    justify-content: center;
+  }
+
+  .app-stores {
+    justify-content: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
 
 }
 
@@ -1603,16 +1639,11 @@ body {
     font-size: 14px;
   }
 
-  .footer {
-    padding: 50px 0 0px;
-    color: #333;
-
-  }
-
   .footer-top {
     grid-template-columns: 1fr;
     gap: 30px;
   }
+
 
   .footer-bottom-content {
     grid-template-columns: 1fr;
