@@ -1285,6 +1285,80 @@ body {
 
 
 @media (max-width: 480px) {
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* centramos todo en el eje horizontal */
+    gap: 10px;              /* espacio vertical entre logo, búsqueda y íconos */
+    padding: 0 10px;        /* reducimos el padding lateral */
+  }
+
+  /* 2) Logo más chico */
+  .logo img {
+    width: 8rem;            /* reducimos el ancho al 66% aprox. */
+    margin-bottom: 5px;
+  }
+
+  /* 3) Barra de búsqueda ocupa 100% */
+  .search-container {
+    width: 100%;
+    max-width: none;       /* anula el max-width de escritorio */
+    margin: 0;             /* ya no necesita margin horizontal */
+    position: relative;
+  }
+
+  .search-box {
+    width: 100%;
+    font-size: 14px;       /* texto más pequeño para que quepa */
+    padding: 10px 15px 10px 40px; /* reducimos padding interno */
+    height: 36px;
+  }
+
+  .search-container i {
+    left: 12px;   /* acercamos el ícono al borde izquierdo */
+  }
+
+  /* 4) Íconos de usuario en la misma fila pero centrados */
+  .user-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .icon-btn {
+    font-size: 18px;      /* iconos ligeramente más pequeños */
+    padding: 6px;
+  }
+
+  /* 5) Si existiera una barra nav-bar debajo, hacerla vertical o recortada */
+  .nav-container {
+    flex-direction: column;   /* apilamos elementos si es necesario */
+    gap: 5px;
+    padding: 0 10px;
+  }
+
+  .departments-btn {
+    padding: 10px 12px;
+    font-size: 14px;
+    border-right: none;
+    border-bottom: 1px solid #e2e8f0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 12px;
+    font-size: 13px;
+    text-align: center;
+  }
+
   .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -1436,28 +1510,6 @@ body {
     flex-direction: column;
     align-items: center;
   }
-
-  .nav-menu {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .nav-item {
-    width: 100%;
-  }
-
-  .nav-link {
-    text-align: center;
-    padding: 12px;
-  }
-
-  .departments-btn {
-    width: 100%;
-    justify-content: center;
-    border-right: none;
-    border-bottom: 1px solid #e2e8f0;
-  }
-
   .country-selector {
     min-width: 150px;
     padding: 8px 12px;
