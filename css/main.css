@@ -1476,108 +1476,6 @@ body {
 
 @media (max-width: 768px) {
 
-
-  .footer-container {
-    padding: 0 15px;
-  }
-
-  /* 2.2) Reorganizar .footer-top a una sola columna */
-  .footer-top {
-    display: grid;
-    grid-template-columns: 1fr; /* un solo bloque vertical */
-    gap: 30px;
-    margin-bottom: 60px;
-  }
-
-  /* 2.3) Ajustar logo y márgenes en suscripción */
-  .footer-logo img {
-    width: 70%;
-    margin-bottom: 15px;
-  }
-
-  .subscribe-text {
-    font-size: 13px;
-    margin-bottom: 15px;
-  }
-
-  /* 2.4) Formulario de suscripción en columna */
-  .subscribe-form {
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-  .subscribe-input {
-    width: 100%;
-    border-radius: 4px;
-  }
-
-  .subscribe-btn {
-    width: 100%;
-    border-radius: 4px;
-  }
-
-  /* 2.5) Iconos sociales más compactos */
-  .social-icons {
-    gap: 10px;
-    margin-bottom: 15px;
-  }
-
-  .social-icon {
-    width: 35px;
-    height: 35px;
-  }
-
-  /* 2.6) Botones de tienda más pequeños */
-  .store-buttons {
-    gap: 10px;
-    margin-top: 15px;
-  }
-
-  .app-button {
-    height: 28px;
-  }
-
-  /* 2.7) Selector de país ocupa 100% */
-  .country-selector-container {
-    width: 100%;
-  }
-
-  /* 2.8) Columnas 2, 3 y 4: centrar títulos y enlaces */
-  .footer-column {
-    margin-top: 20px;
-  }
-
-  .footer-column-title {
-    font-size: 15px;
-    margin-bottom: 15px;
-  }
-
-  .footer-link {
-    font-size: 13px;
-    margin-bottom: 10px;
-  }
-
-  /* 2.9) Sección inferior: apilar verticalmente */
-  .footer-bottom {
-    padding: 15px 0 20px 5px;
-  }
-
-  .footer-bottom-content {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-  }
-
-  .payment-icon {
-    max-width: 150px;
-    height: auto;
-  }
-
-  .legal-info p {
-    font-size: 12px;
-  }
-}
    .carousel-container-principal {
     max-width: 100%;
     margin: 0 auto;
@@ -1704,7 +1602,7 @@ body {
   .grid-item-description {
     font-size: 0.9em;
   }
-
+}
 
 
 
