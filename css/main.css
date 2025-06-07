@@ -1255,8 +1255,9 @@ body {
 /* Responsive */
 @media (max-width: 1024px) {
 
-   .carousel-slide {
-    height: 300px; /* un poco más bajo que escritorio */
+  .carousel-slide {
+    height: 300px;
+    /* un poco más bajo que escritorio */
   }
 
   .carousel-slide img {
@@ -1275,15 +1276,16 @@ body {
     width: 10px;
     height: 10px;
   }
+
   .footer-top {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 
-    .carousel-container-principal {
+  .carousel-container-principal {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
@@ -1295,7 +1297,7 @@ body {
   }
 
   .carousel-slide {
-    height:auto;
+    height: auto;
     flex-direction: auto;
   }
 
@@ -1358,7 +1360,7 @@ body {
     font-size: 14px;
   }
 
-  
+
 
   .welcome-section {
     padding: 30px 20px;
@@ -1399,20 +1401,21 @@ body {
     padding: 50px 0 0px;
     color: #333;
   }
-  .footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0px;
-  margin: 1rem;
-}
 
-    .footer-top {
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    margin: 1rem;
+  }
+
+  .footer-top {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
   }
 
   .footer-logo img {
-    width: 80%; 
+    width: 80%;
   }
 
   .store-buttons {
@@ -1440,9 +1443,26 @@ body {
     margin-top: 20px;
   }
 
-  .country-selector-container {
-    width: 100%;
+  .footer-bottom {
+    border-top: 1px solid #e2e8f0;
+    padding: 20px 0px 10px 5px;
+    background: rgb(255, 255, 255);
+
   }
+
+  .footer-bottom-content {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}
+
+.country-selector-container {
+  width: 100%;
+}
 
 
 
@@ -1533,7 +1553,7 @@ body {
   }
 
   .carousel-slide {
-    height:auto;
+    height: auto;
     flex-direction: auto;
   }
 
@@ -1543,7 +1563,8 @@ body {
     object-fit: cover;
     display: block;
   }
-.carousel-container-principal {
+
+  .carousel-container-principal {
     border-radius: 0;
     box-shadow: none;
   }
@@ -1556,6 +1577,7 @@ body {
   .carousel-dots {
     gap: 6px;
   }
+
   .dot {
     width: 8px;
     height: 8px;
