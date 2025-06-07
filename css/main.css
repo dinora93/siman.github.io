@@ -1465,10 +1465,6 @@ body {
 }
 
 
-
-}
-
-
 @media (max-width: 480px) {
   .product-grid {
     display: grid;
