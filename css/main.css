@@ -895,7 +895,6 @@ body {
 /*PÁGINA DE PROMOS*/
 .containerProm {
   margin: 0 auto;
-  background-color: #ffffff;
   padding: 30px 40px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1255,6 +1254,27 @@ body {
 
 /* Responsive */
 @media (max-width: 1024px) {
+
+   .carousel-slide {
+    height: 300px; /* un poco más bajo que escritorio */
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .carousel-btn {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
   .footer-top {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -1262,6 +1282,40 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    .carousel-container-principal {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-top: 0.8rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+  }
+
+  .carousel-slide {
+    height:auto;
+    flex-direction: auto;
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+
+  .carousel-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+
   .header-container {
     flex-direction: column;
     gap: 15px;
@@ -1364,21 +1418,21 @@ body {
 
 
 @media (max-width: 480px) {
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 80%;
-  
-}
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 80%;
 
-.product-card-image {
-  max-width: 100%;
-  height: 90%;
-  display: block;
-}
+  }
+
+  .product-card-image {
+    max-width: 100%;
+    height: 90%;
+    display: block;
+  }
 
   .nav-container {
     max-width: 1200px;
@@ -1390,6 +1444,7 @@ body {
     align-content: stretch;
     flex-wrap: wrap;
   }
+
   .benefits-container {
     width: 80%;
     padding: 10px;
@@ -1399,18 +1454,18 @@ body {
   }
 
   .benefit-item {
-    padding: 5px 0; 
+    padding: 5px 0;
   }
 
   .icon-circle {
-    width: 40px; 
+    width: 40px;
     height: 40px;
     padding: 8px;
-    align-items:flex-start
+    align-items: flex-start
   }
 
   .icon-circle img {
-    width: 20px; 
+    width: 20px;
     height: 20px;
   }
 
@@ -1419,19 +1474,59 @@ body {
   }
 
   .text-content p {
-    font-size: 0.75rem; 
+    font-size: 0.75rem;
   }
-  
+
   .departments-btn {
-    width: 100%; 
-    justify-content: center; 
+    width: 100%;
+    justify-content: center;
     border-right: none;
-    border-bottom: 1px solid #e2e8f0; 
-    padding: 10px 15px; 
+    border-bottom: 1px solid #e2e8f0;
+    padding: 10px 15px;
   }
 
   .separator {
-    display: none; 
+    display: none;
+  }
+
+  .carousel-container-principal {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-top: 0.8rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+  }
+
+  .carousel-slide {
+    height:auto;
+    flex-direction: auto;
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+.carousel-container-principal {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .carousel-btn {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .carousel-dots {
+    gap: 6px;
+  }
+  .dot {
+    width: 8px;
+    height: 8px;
   }
 
   .departments-btn {
@@ -1443,15 +1538,15 @@ body {
     border-bottom: 1px solid #e2e8f0;
   }
 
-.legal-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  color: #666;
-  line-height: 1.5;
-  flex-direction: column;
-}
+  .legal-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #666;
+    line-height: 1.5;
+    flex-direction: column;
+  }
 
   .footer {
     background-color: #ffffff;
@@ -1509,7 +1604,8 @@ body {
     padding: 10px 12px;
     font-size: 13px;
   }
-/*promociones*/
+
+  /*promociones*/
 
 }
 
@@ -1523,7 +1619,7 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
-  
+
 }
 
 .dropdown-menu.active {
