@@ -1255,8 +1255,9 @@ body {
 /* Responsive */
 @media (max-width: 1024px) {
 
-   .carousel-slide {
-    height: 300px; /* un poco más bajo que escritorio */
+  .carousel-slide {
+    height: 300px;
+    /* un poco más bajo que escritorio */
   }
 
   .carousel-slide img {
@@ -1275,6 +1276,7 @@ body {
     width: 10px;
     height: 10px;
   }
+
   .footer-top {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -1366,7 +1368,7 @@ body {
   }
 
   .carousel-slide {
-    height:auto;
+    height: auto;
     flex-direction: auto;
   }
 
@@ -1376,7 +1378,8 @@ body {
     object-fit: cover;
     display: block;
   }
-.carousel-container-principal {
+
+  .carousel-container-principal {
     border-radius: 0;
     box-shadow: none;
   }
@@ -1389,6 +1392,7 @@ body {
   .carousel-dots {
     gap: 6px;
   }
+
   .dot {
     width: 8px;
     height: 8px;
@@ -1475,12 +1479,35 @@ body {
 }
 
 @media (max-width: 768px) {
+  
+.subscribe-form {
+  display: flex;
+  margin-bottom: 25px;
+  width: 25%;
+}
 
-   .carousel-container-principal {
+.subscribe-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  outline: none;
+}
+  .footer-logo img {
+    justify-content: center;
+    width: 20%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .carousel-container-principal {
     max-width: 100%;
     margin: 0 auto;
     border-radius: 0.3rem;
-    
+
   }
 
   .carousel-slide {
@@ -1524,6 +1551,22 @@ body {
     font-size: 13px;
   }
 
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 80%;
+
+  }
+
+  .product-card-image {
+    max-width: 100%;
+    height: 90%;
+    display: block;
+  }
+
   .carousel-container {
     padding: 20px;
   }
@@ -1544,6 +1587,13 @@ body {
   .departments-btn {
     padding: 12px 15px;
     font-size: 14px;
+  }
+
+  .footer {
+    background-color: #ffffff;
+    padding: 50px 0 0px;
+    color: #333;
+    margin: 2rem;
   }
 
   .footer-top {
