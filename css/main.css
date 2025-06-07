@@ -554,7 +554,6 @@ body {
 
 /*Footer*/
 .footer {
-  background-color:white;
   padding: 50px 0 0px;
   color: #333;
 }
@@ -1418,7 +1417,7 @@ body {
   }
 
   .footer {
-    background-color:white;
+   
     padding: 50px 0 0px;
     color: #333;
     margin: 2rem;
@@ -1590,7 +1589,6 @@ body {
   }
 
   .footer {
-    background-color:white;
     padding: 50px 0 0px;
     color: #333;
     margin: 2rem;
